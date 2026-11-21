@@ -1,0 +1,45 @@
+.contact-list {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 16px;
+  border: 1px solid #dce3e9;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.contact-list__name {
+  margin: 0;
+  color: #17212b;
+  font-size: 1rem;
+}
+
+.contact-list__number {
+  margin: 4px 0 0;
+  color: #586777;
+  font-size: 0.9rem;
+}
+
+.contact-list__delete {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border: 1px solid #d5a5a5;
+  border-radius: 6px;
+  background: #fff;
+  color: #a32626;
+  font: inherit;
+  cursor: pointer;
+}
+
+.contact-list__delete:hover {
+  background: #fff2f2;
+}

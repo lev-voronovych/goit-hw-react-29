@@ -1,0 +1,17 @@
+.contact-filter {
+  display: grid;
+  gap: 6px;
+  color: #344454;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.contact-filter input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #b9c5d0;
+  border-radius: 7px;
+  color: #17212b;
+  font: inherit;
+  box-sizing: border-box;
+}
